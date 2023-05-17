@@ -1,0 +1,31 @@
+.cart {
+  padding: 5%;
+  display: inline-flex;
+}
+.cartButton {
+  padding: 1%;
+  margin: 0%;
+  border-radius: 5rem;
+  box-shadow: 0 2px -1px white;
+  background-color: #b6c8bc2e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  line-height: 0;
+  font-weight: bold;
+  color: antiquewhite;
+  width: 8rem;
+}
+.cartButton:hover {
+  background-color: #817e7e98;
+}
+.items {
+  width: 30%;
+  border-radius: 2rem;
+  padding: 15%;
+  display: flex;
+  box-shadow: 0 2px 5px white;
+  justify-content: center;
+  background-color: #091e06;
+}
